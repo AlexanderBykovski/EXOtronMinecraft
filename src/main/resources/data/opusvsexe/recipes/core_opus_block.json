@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "opusvsexe:core_opus"
+    }
+  },
+  "result": {
+    "item": "opusvsexe:core_opus_block"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:parthenon_chestplate"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.paradise_regalia.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.paradise_regalia.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/paradise/wyvern",
+  "criteria": {
+    "forged": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:parthenon_chestplate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

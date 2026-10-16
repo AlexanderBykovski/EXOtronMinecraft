@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:ruby_halo_shard"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.reopen_heavens.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.reopen_heavens.description"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "opusvsexe:chronicles/dark_forest/root",
+  "criteria": {
+    "resurrected": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

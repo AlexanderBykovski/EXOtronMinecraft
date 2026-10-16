@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:fire_essence"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.fire_veins.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.fire_veins.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/fire/root",
+  "criteria": {
+    "essence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:fire_essence"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

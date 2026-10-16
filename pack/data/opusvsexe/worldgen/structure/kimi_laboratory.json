@@ -1,0 +1,7 @@
+{
+  "type": "opusvsexe:deep_neurophysics_lab",
+  "biomes": "#opusvsexe:has_kimi_laboratory",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin"
+}

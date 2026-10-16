@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "opusvsexe:block/welding_bench"},
+    "facing=south": {"model": "opusvsexe:block/welding_bench", "y": 180},
+    "facing=west": {"model": "opusvsexe:block/welding_bench", "y": 270},
+    "facing=east": {"model": "opusvsexe:block/welding_bench", "y": 90}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "opusvsexe:fortress_plating"
+    },
+    {
+      "item": "opusvsexe:titan_plate"
+    },
+    {
+      "item": "minecraft:iron_trapdoor"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:sealed_hatch"
+  }
+}

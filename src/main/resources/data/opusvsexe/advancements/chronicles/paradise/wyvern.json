@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:paradise_fruit"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.paradise_wyvern.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.paradise_wyvern.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/paradise/route",
+  "criteria": {
+    "tamed": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:paradise_wyvern"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

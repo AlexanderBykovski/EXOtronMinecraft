@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "opusvsexe:core_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:energy_barrier",
+    "count": 2
+  }
+}

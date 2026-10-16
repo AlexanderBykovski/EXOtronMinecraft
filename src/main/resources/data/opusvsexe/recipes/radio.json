@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "opusvsexe:memory_cable"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:radio"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "opusvsexe:assembly",
+  "pattern": [" BFB ", "FRTBF", "BRCRB", "FBTRF", " BFB "],
+  "key": {
+    "B": {"item": "opusvsexe:broken_exo_hull"},
+    "F": {"item": "opusvsexe:opus_fragment"},
+    "R": {"item": "opusvsexe:resonant_opus"},
+    "T": {"item": "opusvsexe:titan_plate"},
+    "C": {"item": "opusvsexe:core_opus"}
+  },
+  "result": {"item": "opusvsexe:exo_2_activation_core"}
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:sunfeather"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.paradise_songbird.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.paradise_songbird.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/paradise/harvest",
+  "criteria": {
+    "bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "opusvsexe:sunfinch"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

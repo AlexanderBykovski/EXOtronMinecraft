@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "opusvsexe:stabilized_opus", "functions": [{ "function": "minecraft:set_count", "count": 1 }] }
+      ]
+    },
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 3 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:redstone", "weight": 18, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 10 }}] },
+        { "type": "minecraft:item", "name": "minecraft:copper_ingot", "weight": 14, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 3, "max": 7 }}] },
+        { "type": "minecraft:item", "name": "minecraft:glowstone_dust", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 5 }}] },
+        { "type": "minecraft:item", "name": "opusvsexe:memory_fragment_6", "weight": 3 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "opusvsexe:shade_silk"
+    },
+    {
+      "item": "opusvsexe:shade_silk"
+    },
+    {
+      "item": "opusvsexe:shade_silk"
+    },
+    {
+      "item": "opusvsexe:shade_silk"
+    },
+    {
+      "item": "opusvsexe:rootbound_eye"
+    },
+    {
+      "item": "opusvsexe:core_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:shadow_helmet"
+  }
+}

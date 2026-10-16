@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "opusvsexe:core_opus"
+    },
+    {
+      "item": "opusvsexe:stabilized_opus"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:katana_op"
+  }
+}

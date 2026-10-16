@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_concrete"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "opusvsexe:haiku_core"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:colosseum_concrete",
+    "count": 4
+  }
+}

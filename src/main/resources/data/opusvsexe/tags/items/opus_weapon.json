@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "opusvsexe:katana_op",
+    "opusvsexe:katana_gold",
+    "opusvsexe:katana_refined",
+    "opusvsexe:opus_warhammer",
+    "opusvsexe:opus_pickaxe",
+    "opusvsexe:opus_axe",
+    "opusvsexe:opus_shovel",
+    "opusvsexe:opus_hoe",
+    "opusvsexe:light_laser_gun",
+    "opusvsexe:heavy_laser_gun",
+    "opusvsexe:sky_laser_gun",
+    "opusvsexe:parthenon_sword",
+    "opusvsexe:parthenon_pickaxe",
+    "opusvsexe:parthenon_axe",
+    "opusvsexe:parthenon_shovel",
+    "opusvsexe:parthenon_hoe",
+    "opusvsexe:dark_forest_sword",
+    "opusvsexe:dark_forest_pickaxe",
+    "opusvsexe:dark_forest_axe",
+    "opusvsexe:dark_forest_shovel",
+    "opusvsexe:dark_forest_hoe",
+    "opusvsexe:fire_sword",
+    "opusvsexe:fire_pickaxe",
+    "opusvsexe:fire_axe",
+    "opusvsexe:fire_shovel",
+    "opusvsexe:fire_hoe"
+  ]
+}

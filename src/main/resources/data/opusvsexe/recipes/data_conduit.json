@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "opusvsexe:raw_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:data_conduit",
+    "count": 2
+  }
+}

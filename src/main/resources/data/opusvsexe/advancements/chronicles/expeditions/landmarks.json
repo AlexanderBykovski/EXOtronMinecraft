@@ -1,0 +1,157 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:core_opus"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.expedition_landmarks.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.expedition_landmarks.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/expeditions/scout",
+  "criteria": {
+    "trial_grounds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:trial_grounds"
+        }
+      }
+    },
+    "survivor_settlement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:survivor_settlement"
+        }
+      }
+    },
+    "paradise_island": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:paradise_island"
+        }
+      }
+    },
+    "kimi_laboratory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:kimi_laboratory"
+        }
+      }
+    },
+    "japanese_settlement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:japanese_settlement"
+        }
+      }
+    },
+    "haiku_citadel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:haiku_citadel"
+        }
+      }
+    },
+    "frontier_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:frontier_fortress"
+        }
+      }
+    },
+    "eternal_colosseum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:eternal_colosseum"
+        }
+      }
+    },
+    "data_spire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:data_spire"
+        }
+      }
+    },
+    "coddy_workshop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:coddy_workshop"
+        }
+      }
+    },
+    "abandoned_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:abandoned_city"
+        }
+      }
+    },
+    "moon_fountain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:moon_fountain"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trial_grounds"
+    ],
+    [
+      "survivor_settlement"
+    ],
+    [
+      "paradise_island"
+    ],
+    [
+      "kimi_laboratory"
+    ],
+    [
+      "japanese_settlement"
+    ],
+    [
+      "haiku_citadel"
+    ],
+    [
+      "frontier_fortress"
+    ],
+    [
+      "eternal_colosseum"
+    ],
+    [
+      "data_spire"
+    ],
+    [
+      "coddy_workshop"
+    ],
+    [
+      "abandoned_city"
+    ],
+    [
+      "moon_fountain"
+    ]
+  ],
+  "rewards": {
+    "experience": 750
+  }
+}

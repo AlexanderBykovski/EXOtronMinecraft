@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "opusvsexe:memory_cable"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:marsh_filter"
+  }
+}

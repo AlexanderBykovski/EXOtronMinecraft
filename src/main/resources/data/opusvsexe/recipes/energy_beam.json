@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "opusvsexe:energy_barrier"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "opusvsexe:resonant_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:energy_beam",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    },
+    {
+      "item": "opusvsexe:magma_crust"
+    },
+    {
+      "item": "opusvsexe:raw_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:scorched_concrete",
+    "count": 4
+  }
+}

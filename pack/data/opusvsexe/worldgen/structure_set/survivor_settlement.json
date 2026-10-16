@@ -1,0 +1,10 @@
+{
+  "structures": [{ "structure": "opusvsexe:survivor_settlement", "weight": 1 }],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 8,
+    "salt": 155746213,
+    "spread_type": "triangular"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OO",
+    "OO"
+  ],
+  "key": {
+    "O": {
+      "item": "opusvsexe:opus_ore"
+    }
+  },
+  "result": {
+    "item": "opusvsexe:raw_opus",
+    "count": 4
+  }
+}

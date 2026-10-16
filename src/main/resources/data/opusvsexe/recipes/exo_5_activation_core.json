@@ -1,0 +1,10 @@
+{
+  "type": "opusvsexe:assembly",
+  "pattern": [" T T ", "TRATR", "RARAR", "TRATR", " T T "],
+  "key": {
+    "T": {"item": "opusvsexe:titan_plate"},
+    "R": {"item": "opusvsexe:resonant_opus"},
+    "A": {"item": "opusvsexe:ai_tear"}
+  },
+  "result": {"item": "opusvsexe:exo_5_activation_core"}
+}

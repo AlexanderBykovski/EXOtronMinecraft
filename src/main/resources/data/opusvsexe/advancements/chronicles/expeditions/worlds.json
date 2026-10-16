@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:core_opus"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.expedition_worlds.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.expedition_worlds.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/expeditions/routes",
+  "criteria": {
+    "dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "opusvsexe:dark_forest"
+        }
+      }
+    },
+    "fire_realm": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "opusvsexe:fire_realm"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dark_forest"
+    ],
+    [
+      "fire_realm"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

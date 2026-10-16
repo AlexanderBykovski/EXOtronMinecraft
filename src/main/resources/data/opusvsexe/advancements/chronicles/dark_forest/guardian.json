@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:trophy_mossbound_enderman"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.dark_forest_guardian.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.dark_forest_guardian.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/dark_forest/root",
+  "criteria": {
+    "defeated": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:mossbound_enderman"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300
+  }
+}

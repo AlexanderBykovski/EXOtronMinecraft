@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR",
+    "RR"
+  ],
+  "key": {
+    "R": {
+      "item": "opusvsexe:raw_opus"
+    }
+  },
+  "result": {
+    "item": "opusvsexe:stabilized_opus",
+    "count": 4
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:memory_fragment_15"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.archive.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.archive.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/route/signal",
+  "criteria": {
+    "memory_fragment_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_1"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_2"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_3"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_4"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_5"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_6"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_7"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_8"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_9"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_10"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_11"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_12"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_13"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_14"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_fragment_15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_15"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "memory_fragment_1"
+    ],
+    [
+      "memory_fragment_2"
+    ],
+    [
+      "memory_fragment_3"
+    ],
+    [
+      "memory_fragment_4"
+    ],
+    [
+      "memory_fragment_5"
+    ],
+    [
+      "memory_fragment_6"
+    ],
+    [
+      "memory_fragment_7"
+    ],
+    [
+      "memory_fragment_8"
+    ],
+    [
+      "memory_fragment_9"
+    ],
+    [
+      "memory_fragment_10"
+    ],
+    [
+      "memory_fragment_11"
+    ],
+    [
+      "memory_fragment_12"
+    ],
+    [
+      "memory_fragment_13"
+    ],
+    [
+      "memory_fragment_14"
+    ],
+    [
+      "memory_fragment_15"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

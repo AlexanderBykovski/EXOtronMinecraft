@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:moonflower_heart"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.return_last_bloom.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.return_last_bloom.description"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "opusvsexe:chronicles/dark_forest/root",
+  "criteria": {
+    "resurrected": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

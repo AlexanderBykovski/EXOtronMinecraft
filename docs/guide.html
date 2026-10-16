@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Пошаговое руководство по прохождению Opus vs EXE: рецепты, механики, боссы, структуры и маршруты.">
+  <title>Opus vs EXE — Полевой маршрут</title>
+  <link rel="stylesheet" href="guide.css">
+</head>
+<body>
+  <div class="progress-line"><span id="reading-progress"></span></div>
+  <button class="menu-button" id="menu-button" aria-expanded="false">Меню маршрута</button>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#start"><span class="brand-mark">O</span><span><b>OPUS vs EXE</b><small>Полевой маршрут · 1.0.0</small></span></a>
+    <label class="search"><span>Поиск по руководству</span><input id="guide-search" type="search" placeholder="EXO, кузница, рецепт…"><kbd>/</kbd></label>
+    <nav aria-label="Навигация по руководству">
+      <a href="#start">Начало</a>
+      <a href="#roadmap">Пошаговый маршрут</a>
+      <a href="#crafting">Все рецепты <i id="recipe-count">153</i></a>
+      <a href="#mechanics">Механики</a>
+      <a href="#world">Мир и структуры</a>
+      <a href="#threats">Боссы и трофеи</a>
+      <a href="#checklist">Финальный чек-лист</a>
+    </nav>
+    <div class="sidebar-foot"><span class="dot"></span> Fabric 1.20.1 · Java</div>
+  </aside>
+
+  <main id="start">
+    <header class="hero searchable" data-search="начало opus exe haiku прохождение">
+      <div>
+        <p class="eyebrow">Полевой архив выжившего</p>
+        <h1>Пройдите линию<br><em>Опуса до конца.</em></h1>
+        <p class="lead">Это параллельная кампания после ванильного Minecraft: от первого сигнала и стола сборки 5×5 до EXO, ритуалов, новых миров и финальных трофеев.</p>
+        <div class="actions"><a class="button primary" href="#roadmap">Начать маршрут</a><a class="button ghost" href="#crafting">Открыть рецепты</a></div>
+        <div class="stats"><div><b>6</b><span>вкладок достижений</span></div><div><b>153</b><span>рецепта</span></div><div><b>31</b><span>противник</span></div></div>
+      </div>
+      <div class="hero-panel"><div class="signal-ring"></div><span class="panel-kicker">СИГНАЛ ОПУСА</span><strong>Линия активна</strong><small>Соберите память. Выберите ветвь. Вернитесь к ядру.</small></div>
+    </header>
+
+    <section id="roadmap" class="section searchable" data-search="пошаговый маршрут этапы прохождение">
+      <div class="section-head"><p class="eyebrow">Маршрут кампании</p><h2>Порядок прохождения</h2><p>Ветки можно проходить параллельно. Основная цепь объясняет технологию, а отдельные вкладки достижений ведут по региональным линиям.</p></div>
+      <div class="roadmap">
+        <article class="step main-route"><span class="step-no">01</span><div class="step-icon">◈</div><div><h3>Поймать первый сигнал</h3><p>Найдите Руду Опуса или первый Фрагмент памяти. Не тратьте редкие фрагменты: они нужны для полной хроники.</p><span class="tag">Вкладка: Хроника Опуса</span></div></article>
+        <article class="step main-route"><span class="step-no">02</span><div class="step-icon">▦</div><div><h3>Собрать станцию 5×5</h3><p>Сделайте <b>Opus Assembly Table</b>. Именно здесь лежит основная производственная линия: материалы, оружие, броня и блоки.</p><span class="tag">Сетка 5 × 5</span></div></article>
+        <article class="step main-route"><span class="step-no">03</span><div class="step-icon">◌</div><div><h3>Восстановить память</h3><p>Соберите все 15 Фрагментов памяти и пройдите цепь от Resonance Forge до EXO Assembly Frame.</p><span class="tag">Архив · кузница · EXO</span></div></article>
+        <article class="step main-route"><span class="step-no">04</span><div class="step-icon">✦</div><div><h3>Открыть пять EXO</h3><p>Создайте пять ядер активации. Вставьте ядро в раму, дождитесь полной сборки и испытайте модель в бою.</p><span class="tag">EXO-1 → EXO-5</span></div></article>
+        <article class="step branch paradise"><span class="step-no">05</span><div class="step-icon">↟</div><div><h3>Райский остров</h3><p>Приручите виверну Райским фруктом, активируйте Быстрый полёт и соберите Регалию Парфенона.</p><span class="tag">Небесная ветвь</span></div></article>
+        <article class="step branch fire"><span class="step-no">06</span><div class="step-icon">◉</div><div><h3>Огненное измерение</h3><p>Откройте портал, соберите эссенции Четырёх жил и победите Диабло — живое сердце кальдеры.</p><span class="tag">Огненная ветвь</span></div></article>
+        <article class="step branch forest"><span class="step-no">07</span><div class="step-icon">☾</div><div><h3>Тёмный лес</h3><p>Добудьте Briarweave, разбудите Мохового эндермена и проведите ритуал Последнего цветка.</p><span class="tag">Лунная ветвь</span></div></article>
+        <article class="step branch settlement"><span class="step-no">08</span><div class="step-icon">⛩</div><div><h3>Поселения и экспедиции</h3><p>Торгуйте с выжившими, получите все 14 компасов, посетите структуры и доберитесь до Молодого самурая.</p><span class="tag">Карта мира</span></div></article>
+        <article class="step final"><span class="step-no">09</span><div class="step-icon">⬡</div><div><h3>Полная синхронизация</h3><p>Победите всех уникальных существ, соберите полный зал трофеев и закройте все вкладки хроники.</p><span class="tag">Финал</span></div></article>
+      </div>
+    </section>
+
+    <section id="crafting" class="section searchable" data-search="крафт рецепты сборка 5x5 кузница">
+      <div class="section-head split"><div><p class="eyebrow">Живая книга рецептов</p><h2>Все рецепты мода</h2></div><p>Карточки строятся из актуальных JSON-файлов проекта. Для каждого рецепта видны станция, ингредиенты, схема и результат.</p></div>
+      <article class="featured-recipe" id="assembly-table-recipe">
+        <div class="featured-copy"><div class="featured-kicker">Главный рецепт · начальная точка</div><h3>Opus Assembly Table</h3><p>Это единственный рецепт, который делается на обычном верстаке 3×3. После него все основные рецепты мода открываются в сетке 5×5.</p><div class="featured-result"><img src="assets/items/opus_assembly_table.png" alt="Opus Assembly Table"><span><b>Opus Assembly Table</b><small>opusvsexe:opus_assembly_table</small></span></div></div>
+        <div class="assembly-recipe-visual"><div class="vanilla-grid" aria-label="Рецепт Opus Assembly Table"><span><img src="assets/items/gold_ingot.png" alt="Gold Ingot"></span><span><img src="assets/items/core_opus.png" alt="Core Opus"></span><span><img src="assets/items/gold_ingot.png" alt="Gold Ingot"></span><span><img src="assets/items/fortress_plating.png" alt="Fortress Plating"></span><span><img src="assets/items/exo_assembly_frame.png" alt="EXO Assembly Frame"></span><span><img src="assets/items/fortress_plating.png" alt="Fortress Plating"></span><span><img src="assets/items/polished_deepslate.png" alt="Polished Deepslate"></span><span><img src="assets/items/polished_deepslate.png" alt="Polished Deepslate"></span><span><img src="assets/items/polished_deepslate.png" alt="Polished Deepslate"></span></div><div class="recipe-legend"><span><b>G</b> Gold Ingot ×2</span><span><b>C</b> Core Opus ×1</span><span><b>F</b> Fortress Plating ×2</span><span><b>▣</b> EXO Assembly Frame ×1</span><span><b>P</b> Polished Deepslate ×3</span></div></div>
+      </article>
+      <div class="recipe-tools"><label><span>Найти предмет или рецепт</span><input id="recipe-search" type="search" placeholder="например: EXO, katana, forge…"></label><select id="recipe-filter"><option value="all">Все станции</option><option value="Crafting Table">Верстак</option><option value="Opus Assembly Table">Стол сборки Opus</option><option value="Parthenon Forge">Кузница Парфенона</option><option value="Shapeless">Бесформенный</option></select></div>
+      <p class="catalog-summary" id="recipe-summary"></p><div id="recipe-grid" class="recipe-grid"></div>
+    </section>
+
+    <section id="mechanics" class="section searchable" data-search="механики быстрый полет выверна exo компас ритуал">
+      <div class="section-head"><p class="eyebrow">Системы, которые нужно попробовать</p><h2>Механики без пропусков</h2><p>Каждая карточка — мини-инструкция с ожидаемым результатом и точкой, которую отмечает вкладка достижений.</p></div>
+      <div class="mechanic-grid">
+        <article class="mechanic-card wide"><div class="mechanic-title"><span class="glyph cyan">↟</span><div><h3>Быстрый полёт виверны</h3><small>RMB во время езды · 12 секунд · 18 секунд перезарядки</small></div></div><div class="flight-sequence"><span><b>01</b>Заряд</span><i>→</i><span><b>02</b>Воздушный рывок</span><i>→</i><span><b>03</b>Скоростной режим</span><i>→</i><span><b>04</b>Мягкое торможение</span></div><p>Сначала вокруг крыльев сжимается спираль воздуха, затем происходит короткий резкий рывок. После рывка включается горизонтальный режим со скоростью полёта на элитрах с фейерверком. Отстегнитесь во время заряда — способность безопасно уйдёт в восстановление.</p></article>
+        <article class="mechanic-card"><div class="mechanic-title"><span class="glyph violet">⬡</span><div><h3>Сборка EXO</h3><small>Рама + ядро активации</small></div></div><ol class="mini-steps"><li>Соберите EXO Assembly Frame.</li><li>Возьмите ядро нужной модели.</li><li>Нажмите по раме ядром.</li><li>Защитите 3 секунды сборки.</li><li>Получите живую модель EXO.</li></ol></article>
+        <article class="mechanic-card"><div class="mechanic-title"><span class="glyph gold">⌖</span><div><h3>Экспедиционный компас</h3><small>14 маршрутов · стрелка не инвертирована</small></div></div><p>Получите компас у выживших, дождитесь калибровки и следуйте за стрелкой. Каждый компас ведёт к своей структуре или региону; используйте их все для узла «Сеть маршрутов».</p><div class="chip-row"><span>руины</span><span>поселения</span><span>цитадель</span><span>лес</span><span>фонтан</span></div></article>
+        <article class="mechanic-card"><div class="mechanic-title"><span class="glyph pink">☾</span><div><h3>Три ритуала</h3><small>Алтарь · небеса · Последний цветок</small></div></div><p>Ритуалы потребляют редкие компоненты и запускают отдельную анимацию мира. Не уходите от конструкции до завершения таймера: прогресс сохраняется и повторный запуск не создаёт дубликатов.</p><div class="ritual-line"><span>Ядро Хаику</span><span>→</span><span>Ruby Halo</span><span>→</span><span>Moonflower</span></div></article>
+      </div>
+    </section>
+
+    <section id="world" class="section searchable" data-search="мир структуры биомы экспедиции огненное измерение тёмный лес">
+      <div class="section-head split"><div><p class="eyebrow">Атлас маршрутов</p><h2>Куда идти</h2></div><p>Компасные достижения требуют посетить все структуры. Для разработки можно использовать locate, в выживании — торговлю.</p></div>
+      <div class="world-grid"><article><span class="world-number">01</span><h3>Основная линия</h3><p>Лаборатория Кими → мастерская Кодди → Data Spire → Trial Grounds → Abandoned City → Frontier Fortress → Haiku Citadel → Eternal Colosseum.</p><code>/locate structure opusvsexe:haiku_citadel</code></article><article><span class="world-number">02</span><h3>Региональные линии</h3><p>Paradise Island, Fire Realm, Dark Forest, Survivor Settlement и Japanese Settlement имеют собственные корни достижений и не смешиваются в одну колонну.</p><code>/locate structure opusvsexe:paradise_island</code></article></div>
+    </section>
+
+    <section id="threats" class="section searchable" data-search="боссы мобы трофеи haiku diablo angel mossbound samurai">
+      <div class="section-head"><p class="eyebrow">Индекс угроз</p><h2>Бой — часть маршрута</h2><p>Не пропускайте обычных существ: сводный архив проверяет каждого из 31 противника, а зал трофеев — каждого из 26 владельцев трофеев.</p></div>
+      <div class="threat-grid"><article><span class="danger">ОПУС</span><h3>Haiku и EXO</h3><p>Начните с ранних Хаику, затем собирайте снаряжение Опуса. EXO-модели становятся отдельными испытаниями после сборки через раму. Финальная цель основной линии — <b>Haiku Omega</b>: верховная машина, которая призывается Ядром Хаику у Сердца Алтаря.</p><div class="omega-callout"><img src="assets/items/trophy_haiku_omega.png" alt="Haiku Omega trophy"><span><b>Haiku Omega</b><small>Финальный босс основной линии</small></span></div></article><article><span class="danger fire-text">ОГОНЬ</span><h3>Диабло</h3><p>Сначала переживите кальдеру и соберите эссенции. После босса восстановите печать, чтобы закрыть огненную ветвь.</p></article><article><span class="danger forest-text">ЛУНА</span><h3>Моховой эндермен</h3><p>Используйте укрытия и следите за фазами. После победы завершите ритуал у Moon Fountain.</p></article><article><span class="danger settlement-text">КЛИНОК</span><h3>Молодой самурай</h3><p>Не рассчитывайте на обычные стрелы: босс уклоняется от снарядов. Изучите тайминги длинной катаны и Flash Step.</p></article></div>
+    </section>
+
+    <section id="checklist" class="section searchable" data-search="чек лист финал завершение всё пройти">
+      <div class="section-head"><p class="eyebrow">Последняя проверка</p><h2>Хроника закрыта, когда…</h2></div>
+      <div class="checklist"><label><input type="checkbox"> Собрана станция 5×5 и освоена производственная матрица</label><label><input type="checkbox"> Собраны 15 Фрагментов памяти</label><label><input type="checkbox"> Созданы и активированы все 5 EXO</label><label><input type="checkbox"> Посещены все 12 структур и использованы 14 компасов</label><label><input type="checkbox"> Пройдены Fire Realm, Paradise Island и Dark Forest</label><label><input type="checkbox"> Активирован Быстрый полёт и завершены три ритуала</label><label><input type="checkbox"> Побеждены все 31 сущность и собраны 26 трофеев</label></div>
+      <div class="footer-note">Руководство использует актуальный каталог ресурсов проекта. Откройте <a href="index.html">полный архив</a>, если нужны подробные описания лора и характеристик.</div>
+    </section>
+  </main>
+  <script src="catalog.js"></script><script src="guide.js"></script>
+</body>
+</html>

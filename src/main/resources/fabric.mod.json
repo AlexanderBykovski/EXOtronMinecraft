@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "opusvsexe",
+  "version": "${version}",
+  "name": "Exotron",
+  "description": "A story-driven Fabric 1.20.1 adventure mod about the memory-metal Opus, Haiku machines, EXO frames, lost settlements and parallel realms.",
+  "authors": [
+    "Exotron development team"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/exotron-beta",
+    "sources": "https://github.com/Irisko007/Exotron",
+    "issues": "https://github.com/Irisko007/Exotron/issues"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/opusvsexe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.opus.OpusVsExe"
+    ],
+    "client": [
+      "com.opus.client.OpusVsExeClient"
+    ],
+    "jei_mod_plugin": [
+      "com.opus.compat.jei.OpusJeiPlugin"
+    ]
+  },
+  "mixins": [
+    "opusvsexe.mixins.json",
+    {
+      "config": "opusvsexe.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": ">=0.92.12+1.20.1",
+    "geckolib": "4.4.9"
+  },
+  "suggests": {
+    "jei": ">=15.49.0.200"
+  }
+}

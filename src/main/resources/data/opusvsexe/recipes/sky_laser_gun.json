@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "opusvsexe:heavy_laser_gun"
+    },
+    {
+      "item": "opusvsexe:resonant_opus"
+    },
+    {
+      "item": "opusvsexe:ai_tear"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:sky_laser_gun"
+  }
+}

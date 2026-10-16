@@ -1,0 +1,37 @@
+# Gradle / compiled output
+.gradle/
+.gradle-user/
+build/
+out/
+*.class
+
+# Development runtime: saves, accounts, configs, logs
+run/
+runs/
+logs/
+crash-reports/
+
+# Local tools / Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+*.iml
+local.properties
+
+# Temporary / OS files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:trophy_haiku_omega"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.boss_crown.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.boss_crown.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/route/boss_slayer",
+  "criteria": {
+    "haiku_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_5"
+        }
+      }
+    },
+    "haiku_omega": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_omega"
+        }
+      }
+    },
+    "fire_demon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:fire_demon"
+        }
+      }
+    },
+    "flame_demon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:flame_demon"
+        }
+      }
+    },
+    "angel_boy": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:angel_boy"
+        }
+      }
+    },
+    "mossbound_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:mossbound_enderman"
+        }
+      }
+    },
+    "young_samurai": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:young_samurai"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "haiku_5",
+      "haiku_omega",
+      "fire_demon",
+      "flame_demon",
+      "angel_boy",
+      "mossbound_enderman",
+      "young_samurai"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

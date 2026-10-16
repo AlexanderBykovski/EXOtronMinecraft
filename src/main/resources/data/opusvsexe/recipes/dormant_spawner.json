@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "opusvsexe:core_opus"
+    },
+    {
+      "item": "opusvsexe:opus_fragment"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:dormant_spawner"
+  }
+}

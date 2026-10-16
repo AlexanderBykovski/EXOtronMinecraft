@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RSR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "opusvsexe:resonant_opus"
+    },
+    "S": {
+      "item": "opusvsexe:stabilized_opus"
+    }
+  },
+  "result": {
+    "item": "opusvsexe:core_opus"
+  }
+}

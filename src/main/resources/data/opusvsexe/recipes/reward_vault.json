@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "opusvsexe:reinforced_opus_block"
+    },
+    {
+      "item": "opusvsexe:core_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:reward_vault"
+  }
+}

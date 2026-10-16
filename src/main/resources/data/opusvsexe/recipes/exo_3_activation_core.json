@@ -1,0 +1,11 @@
+{
+  "type": "opusvsexe:assembly",
+  "pattern": [" T T ", "TRCRT", "RCSCR", "TCRCT", " T T "],
+  "key": {
+    "T": {"item": "opusvsexe:titan_plate"},
+    "R": {"item": "opusvsexe:resonant_opus"},
+    "C": {"item": "opusvsexe:core_opus"},
+    "S": {"item": "opusvsexe:stabilized_opus"}
+  },
+  "result": {"item": "opusvsexe:exo_3_activation_core"}
+}

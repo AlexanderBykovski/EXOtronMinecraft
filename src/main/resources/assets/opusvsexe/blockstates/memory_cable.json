@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "opusvsexe:block/memory_cable"},
+    "facing=south": {"model": "opusvsexe:block/memory_cable", "y": 180},
+    "facing=west": {"model": "opusvsexe:block/memory_cable", "y": 270},
+    "facing=east": {"model": "opusvsexe:block/memory_cable", "y": 90}
+  }
+}

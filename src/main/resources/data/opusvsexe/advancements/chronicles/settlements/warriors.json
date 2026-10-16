@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:trophy_young_samurai"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.settlements_warriors.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.settlements_warriors.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/settlements/japanese",
+  "criteria": {
+    "defeated": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:young_samurai"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300
+  }
+}

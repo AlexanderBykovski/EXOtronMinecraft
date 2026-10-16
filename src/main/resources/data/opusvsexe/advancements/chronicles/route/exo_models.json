@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:exo_5_activation_core"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.exo_models.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.exo_models.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/route/exo_spark",
+  "criteria": {
+    "exo_1_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:exo_1_activation_core"
+            ]
+          }
+        ]
+      }
+    },
+    "exo_2_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:exo_2_activation_core"
+            ]
+          }
+        ]
+      }
+    },
+    "exo_3_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:exo_3_activation_core"
+            ]
+          }
+        ]
+      }
+    },
+    "exo_4_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:exo_4_activation_core"
+            ]
+          }
+        ]
+      }
+    },
+    "exo_5_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:exo_5_activation_core"
+            ]
+          }
+        ]
+      }
+    },
+    "assembled": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "exo_1_core"
+    ],
+    [
+      "exo_2_core"
+    ],
+    [
+      "exo_3_core"
+    ],
+    [
+      "exo_4_core"
+    ],
+    [
+      "exo_5_core"
+    ],
+    [
+      "assembled"
+    ]
+  ],
+  "rewards": {
+    "experience": 750
+  }
+}

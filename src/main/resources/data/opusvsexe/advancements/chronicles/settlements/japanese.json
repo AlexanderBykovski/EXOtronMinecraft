@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:katana"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.settlements_japanese.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.settlements_japanese.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/settlements/survivors",
+  "criteria": {
+    "found": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "opusvsexe:japanese_settlement"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

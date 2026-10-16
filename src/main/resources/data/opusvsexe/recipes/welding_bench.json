@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "FPI",
+    "IFI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "opusvsexe:fortress_plating"
+    },
+    "P": {
+      "item": "opusvsexe:pulsing_core"
+    }
+  },
+  "result": {
+    "item": "opusvsexe:welding_bench"
+  }
+}

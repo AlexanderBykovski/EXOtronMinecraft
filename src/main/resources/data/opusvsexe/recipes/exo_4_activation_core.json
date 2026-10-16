@@ -1,0 +1,11 @@
+{
+  "type": "opusvsexe:assembly",
+  "pattern": [" R R ", "RTCTR", "C A C", "RTCTR", " R R "],
+  "key": {
+    "R": {"item": "opusvsexe:resonant_opus"},
+    "T": {"item": "opusvsexe:titan_plate"},
+    "C": {"item": "opusvsexe:core_opus"},
+    "A": {"item": "opusvsexe:ai_tear"}
+  },
+  "result": {"item": "opusvsexe:exo_4_activation_core"}
+}

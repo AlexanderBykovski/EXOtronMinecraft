@@ -1,0 +1,235 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:opus_ruins_compass"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.expedition_routes.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.expedition_routes.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/expeditions/root",
+  "criteria": {
+    "opus_ruins_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:opus_ruins_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "trial_grounds_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:trial_grounds_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "survivor_settlement_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:survivor_settlement_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "paradise_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:paradise_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "kimi_laboratory_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:kimi_laboratory_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "japanese_settlement_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:japanese_settlement_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "haiku_citadel_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:haiku_citadel_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "frontier_fortress_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:frontier_fortress_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "eternal_colosseum_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:eternal_colosseum_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "data_spire_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:data_spire_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "coddy_workshop_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:coddy_workshop_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "abandoned_city_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:abandoned_city_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "dark_forest_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:dark_forest_expedition_compass"
+            ]
+          }
+        ]
+      }
+    },
+    "moon_fountain_expedition_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:moon_fountain_expedition_compass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "opus_ruins_compass"
+    ],
+    [
+      "trial_grounds_expedition_compass"
+    ],
+    [
+      "survivor_settlement_expedition_compass"
+    ],
+    [
+      "paradise_expedition_compass"
+    ],
+    [
+      "kimi_laboratory_expedition_compass"
+    ],
+    [
+      "japanese_settlement_expedition_compass"
+    ],
+    [
+      "haiku_citadel_expedition_compass"
+    ],
+    [
+      "frontier_fortress_expedition_compass"
+    ],
+    [
+      "eternal_colosseum_expedition_compass"
+    ],
+    [
+      "data_spire_expedition_compass"
+    ],
+    [
+      "coddy_workshop_expedition_compass"
+    ],
+    [
+      "abandoned_city_expedition_compass"
+    ],
+    [
+      "dark_forest_expedition_compass"
+    ],
+    [
+      "moon_fountain_expedition_compass"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

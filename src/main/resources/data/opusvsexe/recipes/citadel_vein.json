@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "opusvsexe:haiku_core"
+    },
+    {
+      "item": "opusvsexe:stabilized_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:citadel_vein",
+    "count": 2
+  }
+}

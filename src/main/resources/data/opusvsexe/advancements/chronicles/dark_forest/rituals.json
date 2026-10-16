@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:moonflower_heart"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.rituals.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.rituals.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/dark_forest/guardian",
+  "criteria": {
+    "haiku_omega": {
+      "trigger": "minecraft:impossible"
+    },
+    "reopen_heavens": {
+      "trigger": "minecraft:impossible"
+    },
+    "last_bloom": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "haiku_omega"
+    ],
+    [
+      "reopen_heavens"
+    ],
+    [
+      "last_bloom"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

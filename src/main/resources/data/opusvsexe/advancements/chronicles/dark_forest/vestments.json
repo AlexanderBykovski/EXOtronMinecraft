@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:moonflower_heart"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.forest_vestments.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.forest_vestments.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/dark_forest/rituals",
+  "criteria": {
+    "restored": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:trophy_diablo"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.fire_diablo.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.fire_diablo.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/fire/veins",
+  "criteria": {
+    "defeated": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:fire_demon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "opusvsexe:stabilized_opus"
+    }
+  },
+  "result": {
+    "item": "opusvsexe:broken_exo_hull"
+  }
+}

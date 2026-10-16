@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:opus_ore"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.prospector.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.prospector.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/route/signal",
+  "criteria": {
+    "raw_opus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:raw_opus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

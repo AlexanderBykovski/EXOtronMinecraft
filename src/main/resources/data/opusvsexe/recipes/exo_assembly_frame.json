@@ -1,0 +1,19 @@
+{
+  "type": "opusvsexe:assembly",
+  "pattern": [
+    "TFMFT",
+    "FESEF",
+    "MSOSM",
+    "FESEF",
+    "TFMFT"
+  ],
+  "key": {
+    "T": { "item": "opusvsexe:titan_plate" },
+    "F": { "item": "opusvsexe:fortress_plating" },
+    "M": { "item": "opusvsexe:memory_glass" },
+    "E": { "item": "opusvsexe:energy_relay" },
+    "S": { "item": "opusvsexe:stabilized_opus" },
+    "O": { "item": "opusvsexe:core_opus" }
+  },
+  "result": { "item": "opusvsexe:exo_assembly_frame" }
+}

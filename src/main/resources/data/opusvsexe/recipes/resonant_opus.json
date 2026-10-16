@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "opusvsexe:stabilized_opus"
+    }
+  },
+  "result": {
+    "item": "opusvsexe:resonant_opus",
+    "count": 4
+  }
+}

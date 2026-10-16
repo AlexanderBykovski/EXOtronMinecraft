@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:trophy_haiku_omega"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.mastery.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.mastery.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/route/trophies",
+  "criteria": {
+    "omega_trophy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:trophy_haiku_omega"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}

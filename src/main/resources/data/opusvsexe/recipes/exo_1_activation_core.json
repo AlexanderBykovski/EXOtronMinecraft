@@ -1,0 +1,11 @@
+{
+  "type": "opusvsexe:assembly",
+  "pattern": [" B B ", "BPCPB", "BSCSB", "BPCPB", " B B "],
+  "key": {
+    "B": {"item": "opusvsexe:broken_exo_hull"},
+    "P": {"item": "opusvsexe:pulsing_core"},
+    "C": {"item": "opusvsexe:core_opus"},
+    "S": {"item": "opusvsexe:stabilized_opus"}
+  },
+  "result": {"item": "opusvsexe:exo_1_activation_core"}
+}

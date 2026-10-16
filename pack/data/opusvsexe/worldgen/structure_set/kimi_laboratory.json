@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "opusvsexe:kimi_laboratory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 72,
+    "separation": 24,
+    "salt": 1625389709,
+    "spread_type": "triangular"
+  }
+}

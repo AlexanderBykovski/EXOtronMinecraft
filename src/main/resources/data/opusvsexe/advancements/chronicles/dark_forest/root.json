@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:moonflower_heart"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.dark_forest_root.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.dark_forest_root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "opusvsexe:textures/gui/advancements/backgrounds/chronicles.png"
+  },
+  "criteria": {
+    "forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "opusvsexe:dark_forest"
+        }
+      }
+    }
+  }
+}

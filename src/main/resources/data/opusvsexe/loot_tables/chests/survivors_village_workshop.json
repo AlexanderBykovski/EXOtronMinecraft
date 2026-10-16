@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:chest",
+  "pools": [{"rolls": {"min": 2, "max": 4}, "entries": [
+    {"type": "minecraft:item", "name": "minecraft:iron_nugget", "functions": [{"function": "minecraft:set_count", "count": {"min": 3, "max": 10}}]},
+    {"type": "minecraft:item", "name": "minecraft:copper_ingot", "functions": [{"function": "minecraft:set_count", "count": {"min": 1, "max": 4}}]},
+    {"type": "minecraft:item", "name": "minecraft:coal", "functions": [{"function": "minecraft:set_count", "count": {"min": 1, "max": 5}}]},
+    {"type": "minecraft:item", "name": "minecraft:chain"}
+  ]}],
+  "random_sequence": "opusvsexe:chests/survivors_village_workshop"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:nether_brick"
+    },
+    {
+      "item": "opusvsexe:stabilized_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:fortress_plating",
+    "count": 2
+  }
+}

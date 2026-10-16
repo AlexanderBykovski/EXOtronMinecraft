@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "opusvsexe:memory_cable"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "opusvsexe:raw_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:signal_panel"
+  }
+}

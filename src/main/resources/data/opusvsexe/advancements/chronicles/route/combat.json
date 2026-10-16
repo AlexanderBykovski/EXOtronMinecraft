@@ -1,0 +1,366 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:trophy_haiku_omega"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.combat.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.combat.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/route/signal",
+  "criteria": {
+    "haiku_1_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_1_5"
+        }
+      }
+    },
+    "haiku_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_2"
+        }
+      }
+    },
+    "haiku_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_3"
+        }
+      }
+    },
+    "haiku_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_4"
+        }
+      }
+    },
+    "haiku_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_5"
+        }
+      }
+    },
+    "haiku_omega": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_omega"
+        }
+      }
+    },
+    "haiku_drone": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_drone"
+        }
+      }
+    },
+    "haiku_drone_plus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:haiku_drone_plus"
+        }
+      }
+    },
+    "fire_slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:fire_slime"
+        }
+      }
+    },
+    "lava_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:lava_golem"
+        }
+      }
+    },
+    "fire_demon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:fire_demon"
+        }
+      }
+    },
+    "ember_slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:ember_slime"
+        }
+      }
+    },
+    "obsidian_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:obsidian_golem"
+        }
+      }
+    },
+    "flame_demon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:flame_demon"
+        }
+      }
+    },
+    "sunfinch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:sunfinch"
+        }
+      }
+    },
+    "cloud_grazer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:cloud_grazer"
+        }
+      }
+    },
+    "paradise_wyvern": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:paradise_wyvern"
+        }
+      }
+    },
+    "angel_boy": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:angel_boy"
+        }
+      }
+    },
+    "shade_spiderling": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:shade_spiderling"
+        }
+      }
+    },
+    "gloom_broodmother": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:gloom_broodmother"
+        }
+      }
+    },
+    "moonwing_bat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:moonwing_bat"
+        }
+      }
+    },
+    "mossbound_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:mossbound_enderman"
+        }
+      }
+    },
+    "survivor": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:survivor"
+        }
+      }
+    },
+    "black_ninja": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:black_ninja"
+        }
+      }
+    },
+    "samurai": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:samurai"
+        }
+      }
+    },
+    "young_samurai": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:young_samurai"
+        }
+      }
+    },
+    "exo_1_sentinel": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:exo_1_sentinel"
+        }
+      }
+    },
+    "exo_2_hunter": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:exo_2_hunter"
+        }
+      }
+    },
+    "exo_3_vanguard": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:exo_3_vanguard"
+        }
+      }
+    },
+    "exo_4_titan": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:exo_4_titan"
+        }
+      }
+    },
+    "exo_5_vengeance": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "opusvsexe:exo_5_vengeance"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "haiku_1_5"
+    ],
+    [
+      "haiku_2"
+    ],
+    [
+      "haiku_3"
+    ],
+    [
+      "haiku_4"
+    ],
+    [
+      "haiku_5"
+    ],
+    [
+      "haiku_omega"
+    ],
+    [
+      "haiku_drone"
+    ],
+    [
+      "haiku_drone_plus"
+    ],
+    [
+      "fire_slime"
+    ],
+    [
+      "lava_golem"
+    ],
+    [
+      "fire_demon"
+    ],
+    [
+      "ember_slime"
+    ],
+    [
+      "obsidian_golem"
+    ],
+    [
+      "flame_demon"
+    ],
+    [
+      "sunfinch"
+    ],
+    [
+      "cloud_grazer"
+    ],
+    [
+      "paradise_wyvern"
+    ],
+    [
+      "angel_boy"
+    ],
+    [
+      "shade_spiderling"
+    ],
+    [
+      "gloom_broodmother"
+    ],
+    [
+      "moonwing_bat"
+    ],
+    [
+      "mossbound_enderman"
+    ],
+    [
+      "survivor"
+    ],
+    [
+      "black_ninja"
+    ],
+    [
+      "samurai"
+    ],
+    [
+      "young_samurai"
+    ],
+    [
+      "exo_1_sentinel"
+    ],
+    [
+      "exo_2_hunter"
+    ],
+    [
+      "exo_3_vanguard"
+    ],
+    [
+      "exo_4_titan"
+    ],
+    [
+      "exo_5_vengeance"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

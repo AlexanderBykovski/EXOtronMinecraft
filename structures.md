@@ -1,0 +1,118 @@
+# Концепт структур Opus Vs Exe
+
+> Сюжет, план, дизайн и наполнение структур. Связанные: `lore.md` (лор войны), `МЕТОДИЧКА.md` (устройство мода).
+> ⚠️ Разделы 1–6 — ЛЕГАСИ-концепт (рудник/лаборатория/кузня/ангар/цитадель). **АКТУАЛЬНАЯ РЕАЛИЗАЦИЯ (задача 19, 2026-08-23) — в разделе «СЕЙЧАС».**
+
+## СЕЙЧАС — документация структур и блоков (актуально)
+Актуальные структуры собраны как цельные NBT-части (без хрупких многочастных jigsaw-сборок). NBT в `pack/data/...` и `src/main/resources/data/...`; K-17 и KSV-01 дополнительно используют terrain-aware template piece.
+
+### Структуры и прогрессия (тиры)
+| Структура | Тир | Габарит | Биом (тег) | Мобы | Испытание | Лут (новые) |
+|---|---|---|---|---|---|---|
+| kimi_laboratory | T1 | 117×79×101 | has_kimi_laboratory (сухие Overworld-биомы) | Husk, Scout, Warden, Titan | «Каскад памяти» (4 keypad), необязательный vault | security/office/research/medical/maintenance/archive/reactor |
+| coddy_workshop | T1 | 96×22×56 | has_coddy_workshop | Husk, Scout, Warden | Последняя смена (4 keypad) + тир | armory, trophy |
+| data_spire | T2 | 26×96×26 | has_data_spire | Scout, Enforcer | Перегрузка шпиля (4 keypad) | overload |
+| trial_grounds | T2 | 96×24×64 | has_trial_grounds | Husk/Scout/Enforcer, Warden | Эскалация (3 keypad) + ложные хранилища | — |
+| abandoned_city | T2–3 | 112×68×112 | has_abandoned_city | Husk/Scout, Enforcer, Warden, Titan | Реликвии города (4 keypad) | locker/market/document/refinery/bunker/treasury |
+| frontier_fortress | T3 | 72×48×72 | has_frontier_fortress | Enforcer, Warden | Гарнизон (4 keypad) | keep_armory |
+| haiku_citadel | T4 | 80×56×80 | has_haiku_citadel | Warden, Titan | Пасть→Неф→Якоря→Ядро | — |
+| eternal_colosseum | Фин. | 129×72×129 | has_eternal_colosseum | Haiku-Ω | призыв Ядра | (задача 18) |
+| paradise_island | Отд. | 97×72×97 | has_paradise_island | Sunfinch/Cloud Grazer/Wyvern/Angel Boy | трёхфазный суд Парфенона | paradise_island_cache + босс-лут |
+| survivor_settlement / KSV-01 | Поселение | 121×43×101 | has_survivor_settlement | Survivor ×20; hostile mobs запрещены | живое укреплённое поселение, shelter и escape route | house/food/medical/workshop/warehouse/security/shelter/hidden |
+
+`/locate structure opusvsexe:<id>`; теги `tier1/tier2/tier3/tier_end`, `opus_structures`.
+
+### Тиры (мобы/лут)
+| Тир | Структуры | Мобы | Опус-лут | Фрагменты |
+|---|---|---|---|---|
+| T1 «железо» | kimi_laboratory, coddy_workshop | Husk, Scout | raw→stabilized | #1–5 |
+| T2 «алмаз» | data_spire, trial_grounds, abandoned_city | Scout, Enforcer | stabilized→resonant | #6–12 |
+| T3 «Опус» | frontier_fortress | Enforcer, Warden | resonant→core | #9–12 |
+| T4 «Ядро» | haiku_citadel | Warden, Titan | core + катана-ОП | #13–15 |
+
+### Механики испытаний (блоки)
+Новые пазл-блоки (задача 19): `sequence_keypad` (facing+solved) — «память-порядок»: NBT puzzle_id/order; верный шаг → solved, ошибка → сброс группы (лёгкий урон)+тревога; решение → reward_vault в r16. Подсказка — memory_console (memory_text). `energy_relay` (powered) — красстоун-проводник по цепочке (в т.ч. вертикально) к phased_barrier/trial_trigger («маршрут энергии»).
+Переиспользуемые: trial_trigger → reward_vault; dormant_spawner (active, entity_id) — живые волны; resonance_forge — крафт Опуса; reward_vault (open) — запертые сейфы.
+
+### Блоки (ModBlocks)
+Декор: cracked_lab_concrete, lab_floor_grate, opus_containment_glass, memory_glass, scorched_concrete, oil_stain, fortress_plating, omega_frame, citadel_vein, tank_trap, memory_sludge, marsh_filter, colosseum_concrete/wall, reinforced_opus_block, haiku_amber_block, pulsing_core, core_crate, broken_exo_hull, exo_assembly_frame, opus_ore, raw/stabilized/resonant/core_opus_block.
+Oriented/facing: data_conduit, memory_cable, signal_panel, welding_bench, hazard_emitter, dead/flickering_terminal, blueprint_table, broken_resonance_forge, katana_stand, scanner_eye, pulse_turret, memory_console, wave/command_terminal, force_field_projector.
+Toggles: arena_gate, sealed_bulkhead, sealed_hatch (open); phase_gate, shield_node, gravity_anchor, combat_beacon (active).
+Энергия: energy_barrier(_red/_blue), energy_beam, phased_barrier. Block entity: trial_trigger, reward_vault, dormant_spawner, resonance_forge, memory_console, altar_heart, sequence_keypad.
+
+### Детали по структурам (кратко)
+- **kimi_laboratory / K-17**: малый наземный сервисный бокс → непрерывная грузовая шахта → L1 security/admin → L2 research/medical с «Каскадом памяти» (4 keypad, необязательный vault) → L3 generators/flooded maintenance → огромный L4 нейрорезонатор с Warden → L5 archive/reactor/containment с Titan в high exhaust bay → скрытый водоотвод в стороне от входа. Шаблон ставится terrain-aware на поверхность, имеет четыре поворота и не использует случайный processor на новом маршруте.
+- **survivor_settlement / KSV-01**: оригинальная рабочая база выживших — irregular perimeter с пятью towers, main/service gate и postern, central fire/pump, command/radio mast, clinic, market, warehouse, canteen, workshop/generator, farms/greenhouse, quarantine, shelter и west escape tunnel. В entities только 20 persistent `opusvsexe:survivor`; natural mob spawns в structure pieces отключены.
+- **coddy_workshop**: двор с ящиками, цех литья (4 печи «Последняя смена»), сборочная линия, тир (триггеры), казармы.
+- **data_spire**: подиум + 5 этажей (корень/рафинад/архив/операции/ядро) + шпиль-маяк; пульт «Перегрузки».
+- **trial_grounds**: подготовка, арена волн («Эскалация», Husk→Scout→Enforcer), лабиринт ложных хранилищ, трофейный зал.
+- **abandoned_city**: кварталы высоток, рынок, завод, офис-небоскрёб, окраины с бункером «Синдикат», ратуша с 5 reward_vault («Реликвии города»).
+- **frontier_fortress**: куртина-стены с башнями, двое ворот, двор, казематы (ammo/power/med/repair), keep, Warden в power.
+- **haiku_citadel**: обелиски, врата («Пасть», 5 keypad), неф с провалами-лавой, галереи, арена «Якоря падения» (3 gravity_anchor + реле), «Ядро» (мини-боссы), postboss-лут.
+
+---
+
+## 1. Сюжетная канва (ЛЕГАСИ)
+После гибели человечества мир усеян руинами войны; Опус «помнит» всё рядом с собой. Каждая точка истории оставила отпечаток: Рудник (добыча), Лаборатория Кими (рождение Haiku, смерть Кими), Кузня Кодди (оборона), Ангар EXO (недостроенный проект), Цитадель (конец человечества). Структуры = «прогулки по памяти Опуса». В каждой Опус в двух формах: блоки на местах (добыча киркой; иногда ловушка-плашка) + кусочки в сундуках (raw/stabilized/resonant/core).
+
+## 2. Общие принципы (ЛЕГАСИ)
+| Принцип | Описание |
+|---|---|
+| Прогрессия | Рудник → Лаборатория → Кузня → Ангар → Цитадель |
+| Уровни входа | ~железо → алмаз → незерит/Опус → Опус → финал |
+| Испытания | 2–4 на структуру; ошибка = ловушки/призыв Haiku |
+| Хаику внутри | всегда спавнятся (casual + триггерные); тир по структуре |
+| Опус = награда | стационарные блоки + сундуки; выше тир — выше тир Опуса |
+| Фрагменты | 1–3 на структуру по событиям лора |
+| Anti-grief | структуры генерируются в чистом виде |
+
+### Типы испытаний
+**Резонанс** — зажечь/активировать в порядке (кнопки/рычаги → дверь хранилища, совпадает с «lit» кузни). **Память** — панели в порядке фрагментов, ошибка = каратель. **Сила** — арена с волнами. **Время** — паркур/бег (поджимающиеся плиты, лава). **Ядро** — мини-босс-хранитель с лучшим лутом.
+
+### Спавн Хаику (ЛЕГАСИ)
+Рудник — Husk (спавнеры, 2-3 волны), хранитель — плашки. Лаборатория — Husk+Scout, «Страж Памяти» (усиленный Scout). Кузня — Enforcer, «Раскалённый хранитель» (усиленный Enforcer). Ангар — Warden, «Прототип» (вражеский EXO-2). Цитадель — Titan + волны, «Ядро Омеги» (усиленный Husk в капсуле).
+
+## 3. Структуры — сюжет, план, награды (ЛЕГАСИ, детально)
+### 3.1 Рудник резонанса
+Передовые шахты, где Кими нашёл металл; память сырая, взрывная. Схема: вход-шахта → туннель A (рельсы, вагонетки, спавнер Husk) → выработка B («стена Опуса» 3–5 opus_ore) → развилка («Резонанс»: 3 кнопки → дверь склада) → склад (стабилизированные блоки + сундук raw×2–4).
+Испытания: «Резонанс» (3 кнопки в любом порядке, каждая притягивает 1–2 Хаска); «Добыча» (opus_ore — кирка ≥ железо).
+Опус: 3–5 opus_ore, 1–2 raw_opus_block; сундуки 2×raw, 1–2 stabilized, 50% фрагмент #2. Хаику: 1 спавнер haiku_1_5 + 4–6 мобов.
+
+### 3.2 Лаборатория Кими
+Место рождения Haiku; память болезненная. Холл (2–3 «документальных» сундука) → «Память» (4 панели: #3→#4→#5→#6, ошибка — волна 3 Хаска+Скаут) → зал воспитания (капсула, кнопка → «Страж Памяти»: усиленный Scout ×1.5 HP/×1.2 скорость → ключ) → кабинет Кими (фрагмент #1 + stabilized×2).
+Опус: 2 stabilized на пьедесталах (снимаются после победы над Стражем, иначе плашка). Сундуки: stabilized×2 + #1/#6; холл raw×1–2. Хаику: 2 спавнера (1.5 и 2) + волны.
+
+### 3.3 Кузня Кодди
+Производство стабилизированного/резонансного Опуса, брони, оружия. Горный зал (3 горна) → плавильный цех (лаву, «Время») → арсенал (resonant) → личная кузня (наковальня, lit).
+Испытания: «Зажигание» (3 resonance_forge, stabilized в руке или рычаг; призыв Хаику-3; после всех — дверь плавки), «Время» (паркур над лавой, рычаг → арсенал), «Раскалённый хранитель» (наковальня → усиленный Хаику-3 → resonant×2 + артефакт-наковальня).
+Опус: 1 resonant в нише, 1 stabilized в арсенале, 2–3 opus_ore. Сундуки: resonant×1–2 + stabilized×2 (арсенал), raw×2 (плавка), фрагмент #8 (60%). Хаику: спавнеры-3 + волна.
+
+### 3.4 Ангар EXO
+Линия сборки EXO: краны, стапели, замороженные корпуса. Сборочный цех (3 стапеля, 3-й «Прототип») → «Энергия» (3 распредщита в порядке; дверь хранилища) → хранилище ядер (2 core_opus_block + сундук core×1–2).
+Испытания: «Энергия» (3 рычага в порядке; сброс + волна Хаику-4), «Прототип» (ключ-карта в сундуке цеха → вражеский EXO-2 урон 12; победа → чертёж: шанс яйца EXO-1/2), «Хранилище» (плашки до победы над Прототипом).
+Опус: 2 core_opus_block, 1 resonant у стапеля. Сундуки: core×1–2, stabilized×2, #13–14 (60%). Хаику: Хаику-4 + волны; Прототип мини-босс.
+
+### 3.5 Цитадель Хаику
+Пирамида-«мозг» из переплавленного Опуса — дом ИИ. Вертикально: вход-зал «Приём» (стена мозаик #9–#15) → арена волн → сердце Цитадели (капсула с «Ядром Омеги»).
+Испытания: «Очищение» (погасить 4 кузни рычагами или волна Titan), «Сердце» (мини-босс «Ядро Омеги» — Husk в капсуле; победа → core×3 + №15 + «Сердце Хаику» крафт).
+Опус: 3 core_opus_block в финале, стены decorative resonant/stabilized. Сундуки: #15 (100%), resonant/stabilized ×2 (Приём), core×1 (арена). Waves + «Ядро Омеги»; спавнеры Хаику-5.
+
+## 4. Общие лут-таблицы сундуков (ЛЕГАСИ)
+| Место | Содержимое | Шанс |
+|---|---|---|
+| Рудник склад | raw×2–4 | 100% |
+| Рудник кладовка | stabilized×1–2 | 60% |
+| Лаборатория кабинет | stabilized×2, #1 | 100/50% |
+| Кузня арсенал | resonant×1–2, stabilized×2 | 100% |
+| Ангар хранилище | core×1–2, #13/#14 | 100/60% |
+| Цитадель приём | #15, resonant×2 | 100% |
+| Все | bone/iron_ingot/paper/book «мусор» | 100% |
+
+## 5. Технические заметки (ЛЕГАСИ, для реализации)
+Генерация StructureFeature через BiomeModifications (цитадель — Nether или редко Overworld). Спавнеры обычные + триггерные волны через блок-«триггер». Испытания на блоках (кнопки/рычаги → редстоун; без командных блоков). Хранители — усиленные варианты (RandomizableContainerBlockEntity/босс-классы). Безопасность: `requiresCorrectToolForDrops` для Opus-блоков.
+
+## 6. Включение в прогрессию (ЛЕГАСИ)
+1. Ранняя: Рудник → raw→stabilized, первая броня/оружие. 2. Средняя: Лаборатория+Кузня → resonant, Катана-ОП/молот, EXO-1/2. 3. Поздняя: Ангар → core, EXO-3/4/5, сет Опуса. 4. Финал: Цитадель → «Сердце Хаику» (финальный артефакт).
+
+---
+*Версия концепта: 1.0. Обновляемый документ* (актуальная реализация — в разделе «СЕЙЧАС»).

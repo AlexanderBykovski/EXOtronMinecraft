@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "opusvsexe:katana_gold"
+    },
+    {
+      "item": "opusvsexe:resonant_opus"
+    },
+    {
+      "item": "opusvsexe:core_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:katana_refined"
+  }
+}

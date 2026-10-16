@@ -1,0 +1,1402 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:core_opus"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.recipes.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.recipes.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "opusvsexe:chronicles/route/assembly",
+  "criteria": {
+    "abandoned_city_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:abandoned_city_compass"
+      }
+    },
+    "aerie_bronze_boots": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:aerie_bronze_boots"
+      }
+    },
+    "aerie_bronze_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:aerie_bronze_chestplate"
+      }
+    },
+    "aerie_bronze_helmet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:aerie_bronze_helmet"
+      }
+    },
+    "aerie_bronze_ingot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:aerie_bronze_ingot"
+      }
+    },
+    "aerie_bronze_leggings": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:aerie_bronze_leggings"
+      }
+    },
+    "altar_heart": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:altar_heart"
+      }
+    },
+    "amber_pillar": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:amber_pillar"
+      }
+    },
+    "arena_gate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:arena_gate"
+      }
+    },
+    "blueprint_table": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:blueprint_table"
+      }
+    },
+    "briarweave": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:briarweave"
+      }
+    },
+    "briarweave_boots": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:briarweave_boots"
+      }
+    },
+    "briarweave_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:briarweave_chestplate"
+      }
+    },
+    "briarweave_helmet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:briarweave_helmet"
+      }
+    },
+    "briarweave_leggings": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:briarweave_leggings"
+      }
+    },
+    "broken_exo_hull": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:broken_exo_hull"
+      }
+    },
+    "broken_resonance_forge": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:broken_resonance_forge"
+      }
+    },
+    "citadel_vein": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:citadel_vein"
+      }
+    },
+    "coddy_workshop_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:coddy_workshop_compass"
+      }
+    },
+    "colosseum_concrete": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:colosseum_concrete"
+      }
+    },
+    "colosseum_wall": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:colosseum_wall"
+      }
+    },
+    "combat_beacon": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:combat_beacon"
+      }
+    },
+    "command_terminal": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:command_terminal"
+      }
+    },
+    "core_crate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:core_crate"
+      }
+    },
+    "core_opus": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:core_opus"
+      }
+    },
+    "core_opus_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:core_opus_block"
+      }
+    },
+    "cracked_lab_concrete": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:cracked_lab_concrete"
+      }
+    },
+    "dark_forest_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_axe"
+      }
+    },
+    "dark_forest_boots": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_boots"
+      }
+    },
+    "dark_forest_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_chestplate"
+      }
+    },
+    "dark_forest_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_compass"
+      }
+    },
+    "dark_forest_helmet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_helmet"
+      }
+    },
+    "dark_forest_hoe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_hoe"
+      }
+    },
+    "dark_forest_leggings": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_leggings"
+      }
+    },
+    "dark_forest_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_pickaxe"
+      }
+    },
+    "dark_forest_shovel": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_shovel"
+      }
+    },
+    "dark_forest_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dark_forest_sword"
+      }
+    },
+    "data_conduit": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:data_conduit"
+      }
+    },
+    "data_spire_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:data_spire_compass"
+      }
+    },
+    "dead_terminal": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dead_terminal"
+      }
+    },
+    "demonic_trident": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:demonic_trident"
+      }
+    },
+    "dormant_spawner": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:dormant_spawner"
+      }
+    },
+    "energy_barrier": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:energy_barrier"
+      }
+    },
+    "energy_barrier_blue": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:energy_barrier_blue"
+      }
+    },
+    "energy_barrier_red": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:energy_barrier_red"
+      }
+    },
+    "energy_beam": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:energy_beam"
+      }
+    },
+    "energy_relay": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:energy_relay"
+      }
+    },
+    "eternal_colosseum_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:eternal_colosseum_compass"
+      }
+    },
+    "exo_1_activation_core": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:exo_1_activation_core"
+      }
+    },
+    "exo_2_activation_core": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:exo_2_activation_core"
+      }
+    },
+    "exo_3_activation_core": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:exo_3_activation_core"
+      }
+    },
+    "exo_4_activation_core": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:exo_4_activation_core"
+      }
+    },
+    "exo_5_activation_core": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:exo_5_activation_core"
+      }
+    },
+    "exo_assembly_frame": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:exo_assembly_frame"
+      }
+    },
+    "fire_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_axe"
+      }
+    },
+    "fire_boots": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_boots"
+      }
+    },
+    "fire_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_chestplate"
+      }
+    },
+    "fire_demonic_boots": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_demonic_boots"
+      }
+    },
+    "fire_demonic_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_demonic_chestplate"
+      }
+    },
+    "fire_demonic_helmet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_demonic_helmet"
+      }
+    },
+    "fire_demonic_leggings": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_demonic_leggings"
+      }
+    },
+    "fire_helmet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_helmet"
+      }
+    },
+    "fire_hoe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_hoe"
+      }
+    },
+    "fire_leggings": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_leggings"
+      }
+    },
+    "fire_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_pickaxe"
+      }
+    },
+    "fire_portal": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_portal"
+      }
+    },
+    "fire_shovel": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_shovel"
+      }
+    },
+    "fire_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fire_sword"
+      }
+    },
+    "flickering_terminal": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:flickering_terminal"
+      }
+    },
+    "force_field_projector": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:force_field_projector"
+      }
+    },
+    "fortress_plating": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:fortress_plating"
+      }
+    },
+    "frontier_fortress_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:frontier_fortress_compass"
+      }
+    },
+    "gravity_anchor": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:gravity_anchor"
+      }
+    },
+    "haiku_amber_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:haiku_amber_block"
+      }
+    },
+    "haiku_citadel_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:haiku_citadel_compass"
+      }
+    },
+    "haiku_core": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:haiku_core"
+      }
+    },
+    "hazard_emitter": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:hazard_emitter"
+      }
+    },
+    "heavy_laser_gun": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:heavy_laser_gun"
+      }
+    },
+    "japanese_settlement_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:japanese_settlement_compass"
+      }
+    },
+    "katana": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:katana"
+      }
+    },
+    "katana_gold": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:katana_gold"
+      }
+    },
+    "katana_op": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:katana_op"
+      }
+    },
+    "katana_refined": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:katana_refined"
+      }
+    },
+    "katana_stand": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:katana_stand"
+      }
+    },
+    "kimi_laboratory_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:kimi_laboratory_compass"
+      }
+    },
+    "lab_floor_grate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:lab_floor_grate"
+      }
+    },
+    "laser_gun": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:laser_gun"
+      }
+    },
+    "light_laser_gun": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:light_laser_gun"
+      }
+    },
+    "long_katana": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:long_katana"
+      }
+    },
+    "marsh_filter": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:marsh_filter"
+      }
+    },
+    "memory_cable": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:memory_cable"
+      }
+    },
+    "memory_console": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:memory_console"
+      }
+    },
+    "memory_glass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:memory_glass"
+      }
+    },
+    "memory_sludge": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:memory_sludge"
+      }
+    },
+    "moon_fountain_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:moon_fountain_compass"
+      }
+    },
+    "oil_stain": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:oil_stain"
+      }
+    },
+    "omega_frame": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:omega_frame"
+      }
+    },
+    "opus_assembly_table": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_assembly_table"
+      }
+    },
+    "opus_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_axe"
+      }
+    },
+    "opus_boots": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_boots"
+      }
+    },
+    "opus_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_chestplate"
+      }
+    },
+    "opus_containment_glass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_containment_glass"
+      }
+    },
+    "opus_helmet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_helmet"
+      }
+    },
+    "opus_hoe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_hoe"
+      }
+    },
+    "opus_leggings": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_leggings"
+      }
+    },
+    "opus_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_pickaxe"
+      }
+    },
+    "opus_ruins_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_ruins_compass"
+      }
+    },
+    "opus_shovel": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_shovel"
+      }
+    },
+    "opus_warhammer": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:opus_warhammer"
+      }
+    },
+    "paradise_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:paradise_compass"
+      }
+    },
+    "parthenon_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_axe"
+      }
+    },
+    "parthenon_boots": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_boots"
+      }
+    },
+    "parthenon_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_chestplate"
+      }
+    },
+    "parthenon_forge": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_forge"
+      }
+    },
+    "parthenon_helmet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_helmet"
+      }
+    },
+    "parthenon_hoe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_hoe"
+      }
+    },
+    "parthenon_leggings": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_leggings"
+      }
+    },
+    "parthenon_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_pickaxe"
+      }
+    },
+    "parthenon_shovel": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_shovel"
+      }
+    },
+    "parthenon_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:parthenon_sword"
+      }
+    },
+    "phase_gate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:phase_gate"
+      }
+    },
+    "phased_barrier": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:phased_barrier"
+      }
+    },
+    "pulse_turret": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:pulse_turret"
+      }
+    },
+    "pulsing_core": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:pulsing_core"
+      }
+    },
+    "radio": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:radio"
+      }
+    },
+    "raw_opus": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:raw_opus"
+      }
+    },
+    "raw_opus_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:raw_opus_block"
+      }
+    },
+    "reinforced_opus_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:reinforced_opus_block"
+      }
+    },
+    "resonance_forge": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:resonance_forge"
+      }
+    },
+    "resonant_opus": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:resonant_opus"
+      }
+    },
+    "resonant_opus_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:resonant_opus_block"
+      }
+    },
+    "reward_vault": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:reward_vault"
+      }
+    },
+    "scanner_eye": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:scanner_eye"
+      }
+    },
+    "scorched_concrete": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:scorched_concrete"
+      }
+    },
+    "sealed_bulkhead": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:sealed_bulkhead"
+      }
+    },
+    "sealed_hatch": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:sealed_hatch"
+      }
+    },
+    "sequence_keypad": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:sequence_keypad"
+      }
+    },
+    "shadow_boots": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:shadow_boots"
+      }
+    },
+    "shadow_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:shadow_chestplate"
+      }
+    },
+    "shadow_helmet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:shadow_helmet"
+      }
+    },
+    "shadow_leggings": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:shadow_leggings"
+      }
+    },
+    "shield_node": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:shield_node"
+      }
+    },
+    "signal_panel": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:signal_panel"
+      }
+    },
+    "sky_laser_gun": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:sky_laser_gun"
+      }
+    },
+    "stabilized_opus": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:stabilized_opus"
+      }
+    },
+    "stabilized_opus_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:stabilized_opus_block"
+      }
+    },
+    "survivor_settlement_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:survivor_settlement_compass"
+      }
+    },
+    "tank_trap": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:tank_trap"
+      }
+    },
+    "titan_plate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:titan_plate"
+      }
+    },
+    "trial_grounds_compass": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:trial_grounds_compass"
+      }
+    },
+    "trial_trigger": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:trial_trigger"
+      }
+    },
+    "wave_terminal": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:wave_terminal"
+      }
+    },
+    "welding_bench": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "opusvsexe:welding_bench"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "abandoned_city_compass"
+    ],
+    [
+      "aerie_bronze_boots"
+    ],
+    [
+      "aerie_bronze_chestplate"
+    ],
+    [
+      "aerie_bronze_helmet"
+    ],
+    [
+      "aerie_bronze_ingot"
+    ],
+    [
+      "aerie_bronze_leggings"
+    ],
+    [
+      "altar_heart"
+    ],
+    [
+      "amber_pillar"
+    ],
+    [
+      "arena_gate"
+    ],
+    [
+      "blueprint_table"
+    ],
+    [
+      "briarweave"
+    ],
+    [
+      "briarweave_boots"
+    ],
+    [
+      "briarweave_chestplate"
+    ],
+    [
+      "briarweave_helmet"
+    ],
+    [
+      "briarweave_leggings"
+    ],
+    [
+      "broken_exo_hull"
+    ],
+    [
+      "broken_resonance_forge"
+    ],
+    [
+      "citadel_vein"
+    ],
+    [
+      "coddy_workshop_compass"
+    ],
+    [
+      "colosseum_concrete"
+    ],
+    [
+      "colosseum_wall"
+    ],
+    [
+      "combat_beacon"
+    ],
+    [
+      "command_terminal"
+    ],
+    [
+      "core_crate"
+    ],
+    [
+      "core_opus"
+    ],
+    [
+      "core_opus_block"
+    ],
+    [
+      "cracked_lab_concrete"
+    ],
+    [
+      "dark_forest_axe"
+    ],
+    [
+      "dark_forest_boots"
+    ],
+    [
+      "dark_forest_chestplate"
+    ],
+    [
+      "dark_forest_compass"
+    ],
+    [
+      "dark_forest_helmet"
+    ],
+    [
+      "dark_forest_hoe"
+    ],
+    [
+      "dark_forest_leggings"
+    ],
+    [
+      "dark_forest_pickaxe"
+    ],
+    [
+      "dark_forest_shovel"
+    ],
+    [
+      "dark_forest_sword"
+    ],
+    [
+      "data_conduit"
+    ],
+    [
+      "data_spire_compass"
+    ],
+    [
+      "dead_terminal"
+    ],
+    [
+      "demonic_trident"
+    ],
+    [
+      "dormant_spawner"
+    ],
+    [
+      "energy_barrier"
+    ],
+    [
+      "energy_barrier_blue"
+    ],
+    [
+      "energy_barrier_red"
+    ],
+    [
+      "energy_beam"
+    ],
+    [
+      "energy_relay"
+    ],
+    [
+      "eternal_colosseum_compass"
+    ],
+    [
+      "exo_1_activation_core"
+    ],
+    [
+      "exo_2_activation_core"
+    ],
+    [
+      "exo_3_activation_core"
+    ],
+    [
+      "exo_4_activation_core"
+    ],
+    [
+      "exo_5_activation_core"
+    ],
+    [
+      "exo_assembly_frame"
+    ],
+    [
+      "fire_axe"
+    ],
+    [
+      "fire_boots"
+    ],
+    [
+      "fire_chestplate"
+    ],
+    [
+      "fire_demonic_boots"
+    ],
+    [
+      "fire_demonic_chestplate"
+    ],
+    [
+      "fire_demonic_helmet"
+    ],
+    [
+      "fire_demonic_leggings"
+    ],
+    [
+      "fire_helmet"
+    ],
+    [
+      "fire_hoe"
+    ],
+    [
+      "fire_leggings"
+    ],
+    [
+      "fire_pickaxe"
+    ],
+    [
+      "fire_portal"
+    ],
+    [
+      "fire_shovel"
+    ],
+    [
+      "fire_sword"
+    ],
+    [
+      "flickering_terminal"
+    ],
+    [
+      "force_field_projector"
+    ],
+    [
+      "fortress_plating"
+    ],
+    [
+      "frontier_fortress_compass"
+    ],
+    [
+      "gravity_anchor"
+    ],
+    [
+      "haiku_amber_block"
+    ],
+    [
+      "haiku_citadel_compass"
+    ],
+    [
+      "haiku_core"
+    ],
+    [
+      "hazard_emitter"
+    ],
+    [
+      "heavy_laser_gun"
+    ],
+    [
+      "japanese_settlement_compass"
+    ],
+    [
+      "katana"
+    ],
+    [
+      "katana_gold"
+    ],
+    [
+      "katana_op"
+    ],
+    [
+      "katana_refined"
+    ],
+    [
+      "katana_stand"
+    ],
+    [
+      "kimi_laboratory_compass"
+    ],
+    [
+      "lab_floor_grate"
+    ],
+    [
+      "laser_gun"
+    ],
+    [
+      "light_laser_gun"
+    ],
+    [
+      "long_katana"
+    ],
+    [
+      "marsh_filter"
+    ],
+    [
+      "memory_cable"
+    ],
+    [
+      "memory_console"
+    ],
+    [
+      "memory_glass"
+    ],
+    [
+      "memory_sludge"
+    ],
+    [
+      "moon_fountain_compass"
+    ],
+    [
+      "oil_stain"
+    ],
+    [
+      "omega_frame"
+    ],
+    [
+      "opus_assembly_table"
+    ],
+    [
+      "opus_axe"
+    ],
+    [
+      "opus_boots"
+    ],
+    [
+      "opus_chestplate"
+    ],
+    [
+      "opus_containment_glass"
+    ],
+    [
+      "opus_helmet"
+    ],
+    [
+      "opus_hoe"
+    ],
+    [
+      "opus_leggings"
+    ],
+    [
+      "opus_pickaxe"
+    ],
+    [
+      "opus_ruins_compass"
+    ],
+    [
+      "opus_shovel"
+    ],
+    [
+      "opus_warhammer"
+    ],
+    [
+      "paradise_compass"
+    ],
+    [
+      "parthenon_axe"
+    ],
+    [
+      "parthenon_boots"
+    ],
+    [
+      "parthenon_chestplate"
+    ],
+    [
+      "parthenon_forge"
+    ],
+    [
+      "parthenon_helmet"
+    ],
+    [
+      "parthenon_hoe"
+    ],
+    [
+      "parthenon_leggings"
+    ],
+    [
+      "parthenon_pickaxe"
+    ],
+    [
+      "parthenon_shovel"
+    ],
+    [
+      "parthenon_sword"
+    ],
+    [
+      "phase_gate"
+    ],
+    [
+      "phased_barrier"
+    ],
+    [
+      "pulse_turret"
+    ],
+    [
+      "pulsing_core"
+    ],
+    [
+      "radio"
+    ],
+    [
+      "raw_opus"
+    ],
+    [
+      "raw_opus_block"
+    ],
+    [
+      "reinforced_opus_block"
+    ],
+    [
+      "resonance_forge"
+    ],
+    [
+      "resonant_opus"
+    ],
+    [
+      "resonant_opus_block"
+    ],
+    [
+      "reward_vault"
+    ],
+    [
+      "scanner_eye"
+    ],
+    [
+      "scorched_concrete"
+    ],
+    [
+      "sealed_bulkhead"
+    ],
+    [
+      "sealed_hatch"
+    ],
+    [
+      "sequence_keypad"
+    ],
+    [
+      "shadow_boots"
+    ],
+    [
+      "shadow_chestplate"
+    ],
+    [
+      "shadow_helmet"
+    ],
+    [
+      "shadow_leggings"
+    ],
+    [
+      "shield_node"
+    ],
+    [
+      "signal_panel"
+    ],
+    [
+      "sky_laser_gun"
+    ],
+    [
+      "stabilized_opus"
+    ],
+    [
+      "stabilized_opus_block"
+    ],
+    [
+      "survivor_settlement_compass"
+    ],
+    [
+      "tank_trap"
+    ],
+    [
+      "titan_plate"
+    ],
+    [
+      "trial_grounds_compass"
+    ],
+    [
+      "trial_trigger"
+    ],
+    [
+      "wave_terminal"
+    ],
+    [
+      "welding_bench"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

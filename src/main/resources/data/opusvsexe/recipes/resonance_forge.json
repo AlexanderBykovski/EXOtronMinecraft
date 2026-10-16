@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "opusvsexe:broken_resonance_forge"
+    },
+    {
+      "item": "opusvsexe:stabilized_opus"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:blast_furnace"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:resonance_forge"
+  }
+}

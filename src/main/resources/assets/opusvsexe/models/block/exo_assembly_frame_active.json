@@ -1,0 +1,6 @@
+{
+  "parent": "opusvsexe:block/exo_assembly_frame",
+  "textures": {
+    "all": "opusvsexe:block/exo_assembly_frame"
+  }
+}

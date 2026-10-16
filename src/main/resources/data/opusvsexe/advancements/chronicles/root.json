@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "item": "opusvsexe:core_opus"
+    },
+    "title": {
+      "translate": "advancement.opusvsexe.chronicles.root.title"
+    },
+    "description": {
+      "translate": "advancement.opusvsexe.chronicles.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "opusvsexe:textures/gui/advancements/backgrounds/chronicles.png"
+  },
+  "criteria": {
+    "ore_signal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:opus_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "memory_signal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:memory_fragment_1"
+            ]
+          }
+        ]
+      }
+    },
+    "assembly_signal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "opusvsexe:opus_assembly_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ore_signal",
+      "memory_signal",
+      "assembly_signal"
+    ]
+  ]
+}

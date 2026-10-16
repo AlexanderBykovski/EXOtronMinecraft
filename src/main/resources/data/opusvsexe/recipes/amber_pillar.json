@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "opusvsexe:haiku_amber_block"
+    },
+    {
+      "item": "minecraft:polished_deepslate"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:amber_pillar",
+    "count": 2
+  }
+}

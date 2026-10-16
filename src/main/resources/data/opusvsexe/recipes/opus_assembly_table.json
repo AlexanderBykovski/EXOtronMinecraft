@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GCG", "F#F", "PPP"],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "C": { "item": "opusvsexe:core_opus" },
+    "F": { "item": "opusvsexe:fortress_plating" },
+    "#": { "item": "minecraft:crafting_table" },
+    "P": { "item": "minecraft:polished_deepslate" }
+  },
+  "result": { "item": "opusvsexe:opus_assembly_table" }
+}

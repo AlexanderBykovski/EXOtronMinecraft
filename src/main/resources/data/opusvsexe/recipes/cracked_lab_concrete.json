@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "opusvsexe:assembly",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "opusvsexe:raw_opus"
+    }
+  ],
+  "result": {
+    "item": "opusvsexe:cracked_lab_concrete",
+    "count": 4
+  }
+}
